@@ -52,9 +52,10 @@
   </main>
   <footer><div class="shell footer-inner"><span>© <span id="year"></span> 南通鼎澳电气科技有限公司</span><span>专业 · 可靠 · 持续改进</span></div></footer>
   <script>
+    const reportNavLink=document.createElement('a');reportNavLink.href='reports.html';reportNavLink.textContent='资质报告';document.querySelector('.nav-cta').before(reportNavLink);
     const translations={
       '南通鼎澳电气科技有限公司':'NANTONG DINGAO ELECTRIC CO., LTD.',
-      '关于鼎澳':'About Us','产品中心':'Products','制造能力':'Manufacturing','质量保障':'Quality','联系我们':'Contact Us',
+      '关于鼎澳':'About Us','产品中心':'Products','制造能力':'Manufacturing','质量保障':'Quality','资质报告':'Reports','联系我们':'Contact Us',
       '专注变压器结构件':'Transformer Components','专业制造。':'Precision Manufacturing.',
       '以精密钣金、可靠焊接与严格检测，为全球电力设备客户提供变压器油箱、干式变压器外壳及控制柜的一体化制造服务。':'We provide integrated manufacturing of transformer tanks, dry-type transformer enclosures and control cabinets for global power-equipment customers through precision sheet metal fabrication, reliable welding and rigorous inspection.',
       '了解产品':'Explore Products','获取合作方案':'Discuss Your Project','公司成立':'Founded','建筑面积':'Building Area','专业员工':'Skilled Employees','油箱年最大产能':'Max. Annual Tank Capacity',
